@@ -1,0 +1,36 @@
+.page-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+    justify-content: flex-start;
+}
+.page-content>p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem;
+    width: 100%;
+}
+.movie-card{
+    width: 230px;
+    height: 370px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.movie-card img{
+	width: 100%;
+	min-height: 100%;
+}
+.movie-card .heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    font-size: 30px;
+    cursor: pointer;
+	color: white;
+}
+
+.heart.selected{
+    color: rgb(228, 62, 62);
+} 
