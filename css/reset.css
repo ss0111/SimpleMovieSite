@@ -1,0 +1,14 @@
+html, body, #wrap{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+p{
+	margin: 0;
+}
+#wrap{
+    width: 90%;
+    margin: 45px 5%;
+}
